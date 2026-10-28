@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { LayoutGrid, Grid3X3, List, Search, Filter, RotateCcw, ArrowUpRight } from 'lucide-react';
 import { ARTWORKS_DATA, CATEGORIES, CategoryType, Artwork } from '@/data/artworks';
 import ArtworkCard from '@/components/ArtworkCard';
+import KineticArtworkStream from '@/components/KineticArtworkStream';
 import styles from './artworks.module.css';
 
 export default function ArtworksPage() {
@@ -87,6 +88,13 @@ export default function ArtworksPage() {
           </div>
         </div>
       </div>
+
+      {/* Kinetic Alternating Scroll Stream */}
+      <KineticArtworkStream
+        artworks={ARTWORKS_DATA}
+        title="Curatorial Movement & Archive Highlights"
+        subtitle="Dynamic visual dialogue across disciplines. Scroll vertically to glide alternating horizontal streams."
+      />
 
       {/* Filter and View Bar */}
       <div className={styles.filterBar}>
