@@ -24,7 +24,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const siteUrl = 'https://dawsonwellsdesigns.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+    || (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : null)
+    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null)
+    || 'https://dawsonwellsdemo.vercel.app';
   const artworkUrl = `${siteUrl}/artworks/${artwork.slug}`;
   const imageUrl = `${siteUrl}${artwork.primaryImage}`;
 
@@ -33,6 +36,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${artwork.title} (${artwork.year}) by Dawson Wells. ${artwork.medium}, ${artwork.dimensionsImperial} (${artwork.dimensionsMetric}). ${artwork.series}. Dawson Wells Gallery Archive.`,
     alternates: {
       canonical: artworkUrl,
+    },
+    robots: {
+      index: false,
+      follow: false,
     },
     openGraph: {
       title: `${artwork.title} | Dawson Wells Gallery`,

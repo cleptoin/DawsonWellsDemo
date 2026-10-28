@@ -3,35 +3,35 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://dawsonwellsdesigns.com/#website",
-      "url": "https://dawsonwellsdesigns.com/",
+      "@id": "https://dawsonwellsdemo.vercel.app/#website",
+      "url": "https://dawsonwellsdemo.vercel.app/",
       "name": "Dawson Wells Gallery",
       "description": "Museum-caliber contemporary art gallery representing the archive of Mr. Dawson Wells across Photography, Paintings, Drawings, Ceramics, and Prints.",
       "publisher": {
-        "@id": "https://dawsonwellsdesigns.com/#organization"
+        "@id": "https://dawsonwellsdemo.vercel.app/#organization"
       },
       "inLanguage": "en-US",
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://dawsonwellsdesigns.com/artworks?q={search_term_string}"
+          "urlTemplate": "https://dawsonwellsdemo.vercel.app/artworks?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "ArtGallery",
-      "@id": "https://dawsonwellsdesigns.com/#organization",
+      "@id": "https://dawsonwellsdemo.vercel.app/#organization",
       "name": "Dawson Wells Gallery",
-      "url": "https://dawsonwellsdesigns.com/",
+      "url": "https://dawsonwellsdemo.vercel.app/",
       "logo": {
         "@type": "ImageObject",
-        "@id": "https://dawsonwellsdesigns.com/#logo",
-        "url": "https://dawsonwellsdesigns.com/apple-touch-icon.png",
+        "@id": "https://dawsonwellsdemo.vercel.app/#logo",
+        "url": "https://dawsonwellsdemo.vercel.app/apple-touch-icon.png",
         "caption": "Dawson Wells Gallery Monogram"
       },
-      "image": "https://dawsonwellsdesigns.com/og-image.jpg",
+      "image": "https://dawsonwellsdemo.vercel.app/og-image.jpg",
       "founder": {
         "@type": "Person",
         "name": "Dawson Wells",
@@ -56,10 +56,9 @@
           "addressCountry": "GB"
         }
       ],
-      "telephone": "+1-212-589-4200",
-      "email": "inquiries@dawsonwellsgallery.com",
+      "telephone": "+1-000-000-0000",
+      "email": "hello@yourgallery.com",
       "sameAs": [
-        "https://www.instagram.com/dawsonwellsdesigns",
         "https://www.clepto.in"
       ]
     }

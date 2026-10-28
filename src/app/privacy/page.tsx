@@ -66,8 +66,8 @@ export default function PrivacyPolicyPage() {
               <div className={styles.contactBox}>
                 <strong>Dawson Wells Gallery — Curatorial Registrar</strong><br />
                 524 West 24th Street, Chelsea, New York, NY 10011<br />
-                Email: <a href="mailto:privacy@dawsonwellsgallery.com">privacy@dawsonwellsgallery.com</a><br />
-                Telephone: +1 (212) 589-4200
+                Email: <a href="mailto:privacy@yourgallery.com">privacy@yourgallery.com</a><br />
+                Telephone: +1 (000) 000-0000
               </div>
             </section>
           </div>

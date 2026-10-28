@@ -16,7 +16,7 @@ if (match) {
   }
 }
 
-const baseUrl = 'https://dawsonwellsdesigns.com';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dawsonwellsdemo.vercel.app';
 const currentDate = new Date().toISOString().split('T')[0];
 
 // 1. Build sitemap.xml
@@ -168,10 +168,9 @@ const schemaGraph = {
           "addressCountry": "GB"
         }
       ],
-      "telephone": "+1-212-589-4200",
-      "email": "inquiries@dawsonwellsgallery.com",
+      "telephone": "+1-000-000-0000",
+      "email": "hello@yourgallery.com",
       "sameAs": [
-        "https://www.instagram.com/dawsonwellsdesigns",
         "https://www.clepto.in"
       ]
     }

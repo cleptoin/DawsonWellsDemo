@@ -325,8 +325,8 @@ export default function ContactPage() {
               <span className="gallery-label">Directorate</span>
               <h3>Private Client Advisory</h3>
               <p>Advising private patrons, foundation directors, and family offices on collection acquisition, conservation, and estate placement.</p>
-              <a href="mailto:advisory@dawsonwellsgallery.com" className={styles.deptEmail}>
-                advisory@dawsonwellsgallery.com
+              <a href="mailto:advisory@yourgallery.com" className={styles.deptEmail}>
+                advisory@yourgallery.com
               </a>
             </div>
 
@@ -334,8 +334,8 @@ export default function ContactPage() {
               <span className="gallery-label">Institutional</span>
               <h3>Museum Loans & Exhibitions</h3>
               <p>Facilitating scholarly museum loans, biennial presentations, and academic catalog raisonné research inquiries.</p>
-              <a href="mailto:curatorial@dawsonwellsgallery.com" className={styles.deptEmail}>
-                curatorial@dawsonwellsgallery.com
+              <a href="mailto:curatorial@yourgallery.com" className={styles.deptEmail}>
+                curatorial@yourgallery.com
               </a>
             </div>
 
@@ -343,8 +343,8 @@ export default function ContactPage() {
               <span className="gallery-label">Editorial</span>
               <h3>Press & Monograph Publications</h3>
               <p>High-resolution press image requests, monograph distribution, and curatorial interview inquiries.</p>
-              <a href="mailto:press@dawsonwellsgallery.com" className={styles.deptEmail}>
-                press@dawsonwellsgallery.com
+              <a href="mailto:press@yourgallery.com" className={styles.deptEmail}>
+                press@yourgallery.com
               </a>
             </div>
 
@@ -352,8 +352,8 @@ export default function ContactPage() {
               <span className="gallery-label">Registrar</span>
               <h3>Registrar & Archival Framing</h3>
               <p>Inquiries regarding museum crating, international climate-controlled art transit, and custom timber framing.</p>
-              <a href="mailto:registrar@dawsonwellsgallery.com" className={styles.deptEmail}>
-                registrar@dawsonwellsgallery.com
+              <a href="mailto:registrar@yourgallery.com" className={styles.deptEmail}>
+                registrar@yourgallery.com
               </a>
             </div>
           </div>

@@ -73,7 +73,7 @@ export default function AboutPage() {
               <span className="gallery-label">The Visionary Behind the Gallery</span>
               <h2 className={styles.artistHeading}>About Dawson Wells</h2>
               <blockquote className={styles.artistQuote}>
-                &ldquo;Creativity has always been central to my life. Whether designing for legendary American brands or creating contemplative gallery works, my goal is to use creativity with purpose to tell enduring stories, inspire others, and glorify God through the gifts He has given me.&rdquo;
+                &ldquo;Dedicated to material integrity, architectural presence, and the disciplined exploration of form across diverse creative disciplines.&rdquo;
               </blockquote>
 
               <div className={styles.bioProse}>
@@ -81,10 +81,10 @@ export default function AboutPage() {
                   Dawson Wells is an American artist, designer, and founder studying Journalism and Electronic Media at the University of Tennessee, Knoxville. Combining athletic design precision with fine art contemplation, Wells has cultivated a distinguished creative portfolio trusted by premier national institutions.
                 </p>
                 <p>
-                  His work spans prestigious commissions for the historic firearms manufacturer <strong>Smith &amp; Wesson</strong>, visual creative direction for <strong>151 Creative</strong> within the University of Tennessee Athletic Department, the <strong>Tennessee Athletics Hall of Fame</strong>, the <strong>MLB Draft 2025</strong> graphic identity, and the celebrated <strong>Tennessee Golf x Masters</strong> series.
+                  His work spans institutional creative direction, sports visual media, and fine art campaigns.
                 </p>
                 <p>
-                  Alongside his commercial collaborations, Wells founded Dawson Wells Gallery as an enduring platform for fine art collection stewardship—bringing together large-format 8×10 photography, monumental limestone paintings, intimate carbon draftsmanship, wood-fired ceramics, and master relief prints. Grounded in unwavering faith and disciplined craft, his work champions the slow, profound permanence of physical art in an accelerated digital age.
+                  Alongside his commercial collaborations, Wells founded Dawson Wells Gallery as an enduring platform for fine art collection stewardship—bringing together large-format 8×10 photography, monumental limestone paintings, intimate carbon draftsmanship, wood-fired ceramics, and master relief prints. Grounded in disciplined craft, his work champions the slow, profound permanence of physical art in an accelerated digital age.
                 </p>
               </div>
 
@@ -139,7 +139,7 @@ export default function AboutPage() {
               <Link href="/about/overview" className={styles.subpageCard}>
                 <Landmark size={24} className={styles.subpageIcon} />
                 <h3>Company Overview & Team</h3>
-                <p>Meet our Curatorial Board, Senior Advisory Directors, and international research specialists.</p>
+                <p>Meet our Curatorial Advisory, Senior Directors, and international research specialists.</p>
                 <span className={styles.subpageLinkText}>
                   View Leadership <ArrowRight size={13} />
                 </span>

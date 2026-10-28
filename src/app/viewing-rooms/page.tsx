@@ -65,7 +65,7 @@ export default function ViewingRoomsPage() {
         <div className={`container-wide ${styles.heroContent}`}>
           <div className={styles.heroBadge}>
             <span className={styles.liveDot}></span>
-            <span>Online Viewing Room • Now Active</span>
+            <span>Online Viewing Room • Optional Future Feature Concept</span>
           </div>
 
           <h1 className={styles.heroTitle}>
@@ -116,9 +116,9 @@ export default function ViewingRoomsPage() {
             </div>
 
             <div className={styles.roomBody}>
-              <span className={styles.roomDates}>Curatorial Presentation • Private Access</span>
+              <span className={styles.roomDates}>Curatorial Presentation • Optional Future Feature Concept</span>
               <h2 className={styles.roomTitle}>The Architecture of Silence</h2>
-              <span className={styles.roomCurator}>Essay & Installation Concept by Dr. Evelyn Sterling</span>
+              <span className={styles.roomCurator}>Essay & Installation Concept by Senior Curatorial Directorate (Placeholder)</span>
 
               <p className={styles.roomEssayPreview}>
                 &ldquo;Where does solid stone end and oceanic vapor begin? In this curated salon, Dawson Wells isolates the precise threshold where structural geometry meets elemental flux. The silver gelatin surfaces of the coastal breakwaters converse directly with the mineral-crusted impasto of the canvases, creating an optical resonance of stillness.&rdquo;

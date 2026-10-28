@@ -40,12 +40,12 @@ export default function NewsPage() {
 
           <div className={styles.headerTop}>
             <span className="gallery-label">Exhibitions, Press & Dispatches</span>
-            <span className={styles.dispatchPill}>Vol. VII • 2024–2025 Season</span>
+            <span className={styles.dispatchPill}>Vol. VII • 2026–2027 Season</span>
           </div>
 
           <h1 className={styles.pageTitle}>News & Exhibitions</h1>
           <p className={styles.pageLead}>
-            Curatorial announcements, institutional museum exhibitions, art fair presentations in Basel and Miami, critical scholarship, and publications from Dawson Wells Editions.
+            Curatorial announcements, institutional presentations, publications from Dawson Wells Editions, and prototype concepts for international exhibitions.
           </p>
 
           {/* Filter Pills */}
@@ -56,7 +56,7 @@ export default function NewsPage() {
                 className={`${styles.filterPill} ${selectedFilter === type ? styles.activeFilterPill : ''}`}
                 onClick={() => setSelectedFilter(type)}
               >
-                {type === 'All' ? 'All Dispatches' : `${type}s`}
+                {type === 'All' ? 'All Dispatches' : type === 'Art Fair' ? 'Art Fairs (Optional Concept)' : `${type}s`}
               </button>
             ))}
           </div>

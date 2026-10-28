@@ -111,7 +111,7 @@ export default function HomePage() {
           </h1>
 
           <p className={styles.heroMeta}>
-            October 15, 2024 – January 18, 2025 • 524 West 24th Street, New York
+            October 15, 2026 – January 18, 2027 • 524 West 24th Street, New York
           </p>
 
           <p className={styles.heroThesis}>
@@ -142,7 +142,7 @@ export default function HomePage() {
             &ldquo;In an accelerated digital world, Dawson Wells Gallery champions the slow, profound physical resonance of objects crafted to endure across generations.&rdquo;
           </blockquote>
           <div className={styles.statementFooter}>
-            <span className={styles.authorTitle}>Dawson Wells Gallery Curatorial Board</span>
+            <span className={styles.authorTitle}>Gallery Curatorial Advisory</span>
             <span className={styles.dividerDot}>•</span>
             <span className={styles.authorLocation}>New York & London</span>
           </div>
@@ -308,8 +308,8 @@ export default function HomePage() {
             </div>
 
             <div className={styles.essayCitation}>
-              <strong>Dr. Evelyn Sterling</strong>
-              <span>Chief Curator & Director of Exhibitions • Dawson Wells Gallery</span>
+              <strong>Senior Curatorial Directorate</strong>
+              <span>Curatorial Directorate • Dawson Wells Gallery</span>
             </div>
           </div>
         </div>
@@ -341,10 +341,10 @@ export default function HomePage() {
               <span className="gallery-label">The Visionary</span>
               <h2 className={styles.homeArtistTitle}>Purpose, Storytelling & Material Truth</h2>
               <blockquote className={styles.homeArtistQuote}>
-                &ldquo;Whether designing for legendary American brands or creating contemplative gallery works, my goal is to use creativity with purpose to tell stories, inspire others, and glorify God through the gifts He has given me.&rdquo;
+                &ldquo;Dedicated to material integrity, architectural presence, and the disciplined exploration of form across diverse creative disciplines.&rdquo;
               </blockquote>
               <p className={styles.homeArtistPara}>
-                Studying Journalism and Electronic Media at the University of Tennessee, Knoxville, Dawson Wells built a celebrated visual portfolio trusted by premier institutions—including the historic firearms manufacturer <strong>Smith &amp; Wesson</strong>, <strong>151 Creative</strong> of the UT Athletic Department, <strong>MLB Draft 2025</strong>, and the <strong>Tennessee Golf x Masters</strong> series. Dawson Wells Gallery represents the culmination of his vision, presenting exclusive, museum-grade holdings across large-format photography, monumental monochrome painting, intimate draftsmanship, wood-fired ceramics, and master prints.
+                Studying Journalism and Electronic Media at the University of Tennessee, Knoxville, Dawson Wells has developed a distinguished visual discipline spanning commercial creative direction and fine art practice. Dawson Wells Gallery represents the culmination of his vision, presenting exclusive, museum-grade holdings across large-format photography, monumental monochrome painting, intimate draftsmanship, wood-fired ceramics, and master prints.
               </p>
               <div className={styles.homeArtistActions}>
                 <Link href="/about" className="btn-primary">

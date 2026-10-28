@@ -74,7 +74,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -126,7 +126,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -144,8 +144,8 @@ export const ARTWORKS_DATA: Artwork[] = [
   },
   {
     "id": "dw-ph-003",
-    "slug": "photography-smith-wesson-structural-inscription-study-ix",
-    "title": "Smith & Wesson Structural Inscription (Study IX)",
+    "slug": "photography-structural-inscription-study-ix",
+    "title": "Structural Inscription & Tectonic Horizon (Study IX)",
     "category": "Photography",
     "year": 2022,
     "medium": "Archival pigment print on 310gsm Hahnemühle Photo Rag",
@@ -161,24 +161,24 @@ export const ARTWORKS_DATA: Artwork[] = [
     "images": [
       {
         "url": "/images/artworks/photo-03.jpg",
-        "caption": "Smith & Wesson Structural Inscription (Study IX) — Primary archival frontal capture (Dawson Wells Collection Archive)",
+        "caption": "Structural Inscription & Tectonic Horizon (Study IX) — Primary archival frontal capture (Dawson Wells Collection Archive)",
         "type": "frontal"
       },
       {
         "url": "/images/artworks/photo-01.jpg",
-        "caption": "Smith & Wesson Structural Inscription (Study IX) — Curatorial angle perspective",
+        "caption": "Structural Inscription & Tectonic Horizon (Study IX) — Curatorial angle perspective",
         "type": "detail"
       },
       {
         "url": "/images/artworks/gallery-interior.jpg",
-        "caption": "Smith & Wesson Structural Inscription (Study IX) — Installation view, Dawson Wells Gallery Flagship",
+        "caption": "Structural Inscription & Tectonic Horizon (Study IX) — Installation view, Dawson Wells Gallery Flagship",
         "type": "installation"
       }
     ],
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -230,7 +230,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -282,7 +282,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -334,7 +334,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -386,7 +386,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -438,7 +438,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -490,7 +490,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -542,7 +542,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -594,7 +594,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -646,7 +646,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -698,7 +698,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -750,7 +750,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -802,7 +802,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -854,7 +854,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -906,7 +906,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -958,7 +958,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1010,7 +1010,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1062,7 +1062,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of photography. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where light becomes structural weight. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1114,7 +1114,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1166,7 +1166,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1218,7 +1218,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1270,7 +1270,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1322,7 +1322,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1374,7 +1374,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1426,7 +1426,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1478,7 +1478,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1530,7 +1530,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1582,7 +1582,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1634,7 +1634,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1686,7 +1686,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1738,7 +1738,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1790,7 +1790,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1842,7 +1842,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1894,7 +1894,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1946,7 +1946,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -1998,7 +1998,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2050,7 +2050,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2102,7 +2102,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of paintings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where mineral impasto anchors the viewing plane. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2154,7 +2154,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2206,7 +2206,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2258,7 +2258,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2310,7 +2310,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2362,7 +2362,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2414,7 +2414,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2466,7 +2466,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2518,7 +2518,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2570,7 +2570,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2622,7 +2622,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2674,7 +2674,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2726,7 +2726,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2778,7 +2778,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2830,7 +2830,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2882,7 +2882,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2934,7 +2934,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -2986,7 +2986,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3038,7 +3038,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3090,7 +3090,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3142,7 +3142,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of drawings. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the solitary carbon line dictates architectural space. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3194,7 +3194,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3246,7 +3246,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3298,7 +3298,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3350,7 +3350,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3402,7 +3402,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3454,7 +3454,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3506,7 +3506,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3558,7 +3558,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3610,7 +3610,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3662,7 +3662,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3714,7 +3714,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3766,7 +3766,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3818,7 +3818,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3870,7 +3870,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3922,7 +3922,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -3974,7 +3974,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4026,7 +4026,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4078,7 +4078,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4130,7 +4130,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4182,7 +4182,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of ceramics. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the 96-hour flame reveals ancient volcanic fissures. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4234,7 +4234,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4286,7 +4286,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4338,7 +4338,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4390,7 +4390,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4442,7 +4442,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4494,7 +4494,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4546,7 +4546,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4598,7 +4598,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4650,7 +4650,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4702,7 +4702,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4754,7 +4754,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4806,7 +4806,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4858,7 +4858,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4910,7 +4910,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -4962,7 +4962,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -5014,7 +5014,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -5066,7 +5066,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -5118,7 +5118,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -5170,7 +5170,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"
@@ -5222,7 +5222,7 @@ export const ARTWORKS_DATA: Artwork[] = [
     "curatorialNote": "This work exemplifies Dawson Wells’s profound exploration of prints. Through strict reduction of chromatic interference, attention is directed entirely to the tactile density and geological truth of the surface. Executed in the artist’s East Tennessee studio and presented exclusively through Dawson Wells Gallery.",
     "formalAnalysis": "The composition is structured upon an intuitive spatial tension, where the relief matrix holds deep textural memory. Viewed under natural daylight, the work continuously shifts in acoustic and optical presence.",
     "exhibitionHistory": [
-      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2024–2025)",
+      "Dawson Wells: The Material of Light, Chelsea Flagship, New York (2026–2027)",
       "Art Basel Miami Beach, Galleries Sector (Booth F14, 2024)",
       "Frieze London, Focus Sector (2023)",
       "Inaugural Collection Presentation, Dawson Wells Gallery, New York (2022)"

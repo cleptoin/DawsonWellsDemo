@@ -126,7 +126,7 @@ export default function Header() {
               href="/viewing-rooms"
               className={`${styles.navLink} ${pathname.startsWith('/viewing-rooms') ? styles.activeNavLink : ''}`}
             >
-              <span>Viewing Rooms</span>
+              <span>Viewing Rooms <span style={{ fontSize: '0.62rem', opacity: 0.7, letterSpacing: '0.05em' }}>(Concept)</span></span>
             </Link>
 
             {/* News & Exhibitions */}
@@ -237,7 +237,7 @@ export default function Header() {
                 </div>
                 <Link href="/viewing-rooms" className={styles.mobileNavLink}>
                   <span className={styles.mobileNavNum}>03</span>
-                  <span>Online Viewing Rooms</span>
+                  <span>Online Viewing Rooms (Concept)</span>
                 </Link>
                 <Link href="/news" className={styles.mobileNavLink}>
                   <span className={styles.mobileNavNum}>04</span>

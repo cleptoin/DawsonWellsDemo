@@ -67,8 +67,8 @@ export default function TermsPage() {
               </p>
               <div className={styles.contactBox}>
                 <strong>Dawson Wells Gallery — Private Client Liaison</strong><br />
-                Email: <a href="mailto:acquisitions@dawsonwellsgallery.com">acquisitions@dawsonwellsgallery.com</a><br />
-                Chelsea Flagship: +1 (212) 589-4200 • Mayfair Salon: +44 (0)20 7946 0880
+                Email: <a href="mailto:acquisitions@yourgallery.com">acquisitions@yourgallery.com</a><br />
+                Chelsea Flagship: +1 (000) 000-0000 • Mayfair Salon: +44 (0)00 0000 0000
               </div>
             </section>
           </div>

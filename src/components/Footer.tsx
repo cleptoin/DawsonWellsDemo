@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ArrowUpRight, Check, MapPin, Mail, Phone } from 'lucide-react';
-import DWLogo from './DWLogo';
+import { Mail, Phone, MapPin, ArrowUpRight, Check, Compass, ShieldCheck } from 'lucide-react';
+import DWLogo from '@/components/DWLogo';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -14,16 +14,17 @@ export default function Footer() {
     e.preventDefault();
     if (email) {
       setSubscribed(true);
+      setEmail('');
     }
   };
 
   return (
-    <footer className={styles.footer}>
-      {/* Newsletter Pre-Footer */}
-      <div className={styles.newsletterSection}>
+    <footer className={styles.footer} role="contentinfo">
+      {/* Newsletter Signup Strip - Optional Future Feature */}
+      <div className={styles.newsletterStrip}>
         <div className={`container-wide ${styles.newsletterContainer}`}>
           <div className={styles.newsletterLeft}>
-            <span className="gallery-label">The Dawson Wells Chronicle</span>
+            <span className="gallery-label">The Dawson Wells Chronicle • Optional Future Feature</span>
             <h3 className={styles.newsletterTitle}>
               Receive Private Salon Invitations & Curatorial Monographs
             </h3>
@@ -36,7 +37,7 @@ export default function Footer() {
             {subscribed ? (
               <div className={styles.subscribedBox}>
                 <Check size={20} className={styles.checkIcon} />
-                <span>You are now registered for Dawson Wells Gallery curatorial dispatches.</span>
+                <span>You are now registered for Dawson Wells Gallery curatorial dispatches (Demo Submission).</span>
               </div>
             ) : (
               <form onSubmit={handleSubscribe} className={styles.subscribeForm}>
@@ -54,7 +55,7 @@ export default function Footer() {
               </form>
             )}
             <span className={styles.privacyNote}>
-              Strictly confidential. No promotional spam. Unsubscribe at any time.
+              Demonstration concept. Submissions are illustrative and do not send automated external emails.
             </span>
           </div>
         </div>
@@ -87,11 +88,11 @@ export default function Footer() {
             </p>
             <div className={styles.contactItem}>
               <Phone size={12} />
-              <span>+1 (212) 589-4200</span>
+              <span>+1 (000) 000-0000</span>
             </div>
             <div className={styles.contactItem}>
               <Mail size={12} />
-              <span>newyork@dawsonwellsgallery.com</span>
+              <span>newyork@yourgallery.com</span>
             </div>
           </div>
 
@@ -110,11 +111,11 @@ export default function Footer() {
             </p>
             <div className={styles.contactItem}>
               <Phone size={12} />
-              <span>+44 (0)20 7946 0880</span>
+              <span>+44 (0)00 0000 0000</span>
             </div>
             <div className={styles.contactItem}>
               <Mail size={12} />
-              <span>london@dawsonwellsgallery.com</span>
+              <span>london@yourgallery.com</span>
             </div>
           </div>
 
@@ -162,7 +163,9 @@ export default function Footer() {
                 <Link href="/news">Exhibitions & Dispatches</Link>
               </li>
               <li>
-                <Link href="/viewing-rooms">Online Viewing Rooms</Link>
+                <Link href="/viewing-rooms">
+                  Online Viewing Rooms <span style={{ fontSize: '0.68rem', color: 'var(--accent-gold)' }}>(Optional Feature)</span>
+                </Link>
               </li>
               <li>
                 <Link href="/contact">Private Viewing Appointments</Link>
@@ -174,10 +177,29 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Illustrative Demo Content Disclaimer */}
+        <div style={{
+          marginTop: '2.5rem',
+          padding: '1rem 1.25rem',
+          border: '1px solid var(--border-medium)',
+          backgroundColor: 'rgba(158, 130, 86, 0.04)',
+          fontSize: '0.75rem',
+          lineHeight: '1.6',
+          color: 'var(--text-secondary)',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.75rem'
+        }}>
+          <Compass size={16} style={{ color: 'var(--accent-gold)', flexShrink: 0 }} />
+          <span>
+            <strong>Illustrative Demo Notice:</strong> This digital gallery is an illustrative concept prototype prepared for demonstration and design evaluation. Artwork listings, exhibition schedules, and curatorial roles represent concept demonstration content.
+          </span>
+        </div>
+
         {/* Bottom Bar */}
         <div className={styles.bottomBar}>
           <div className={styles.copyright}>
-            © {new Date().getFullYear()} Dawson Wells Gallery LLC. All rights reserved. Works exclusively curated from the Dawson Wells collection.
+            © {new Date().getFullYear()} Dawson Wells Gallery LLC. All rights reserved. Works curated for the Dawson Wells collection showcase.
           </div>
           <div className={styles.bottomLinks}>
             <Link href="/privacy">Privacy &amp; Confidentiality</Link>
@@ -201,7 +223,7 @@ export default function Footer() {
           <div className={styles.cleptoHeaderStrip}>
             <div className={styles.cleptoLiveBadge}>
               <span className={styles.cleptoPulse}></span>
-              <span>Official Demonstration Showcase • Architected by Clepto</span>
+              <span>Concept Prototype • Architected by Clepto</span>
             </div>
             <span className={styles.cleptoClientTag}>Curated Exclusively for Dawson Wells Gallery</span>
           </div>
@@ -209,15 +231,15 @@ export default function Footer() {
           <div className={styles.cleptoMainGrid}>
             <div className={styles.cleptoStatementCol}>
               <h2 className={styles.cleptoHeading}>
-                Looking to Build an International-Level Digital Experience Like This?
+                Concept prepared for Dawson Wells Gallery by Clepto
               </h2>
               <p className={styles.cleptoParagraph}>
-                This digital gallery is an authentic demonstration prototype designed and developed by <strong>Clepto</strong>. We architect bespoke museum-grade websites, high-resolution viewing rooms, and luxury portfolios for visionary artists, premier galleries, and global institutions.
+                This digital gallery is a concept prototype designed and developed by <strong>Clepto</strong>. We architect bespoke museum-grade websites, high-resolution viewing rooms, and luxury digital portfolios for visionary artists, premier galleries, and global institutions.
               </p>
               <div className={styles.cleptoTrustPills}>
                 <span className={styles.trustPill}>✓ Next.js App Router Architecture</span>
                 <span className={styles.trustPill}>✓ Museum-Grade Editorial Typography</span>
-                <span className={styles.trustPill}>✓ iOS &amp; Android Touch-Optimized</span>
+                <span className={styles.trustPill}>✓ GSAP Smooth Scroll &amp; Touch-Optimized</span>
               </div>
             </div>
 

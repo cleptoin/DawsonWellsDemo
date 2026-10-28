@@ -30,7 +30,10 @@ const inter = Inter({
   display: 'swap',
 });
 
-const SITE_URL = 'https://dawsonwellsdesigns.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL
+  || (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : null)
+  || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null)
+  || 'https://dawsonwellsdemo.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -111,18 +114,17 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
+    nocache: true,
     googleBot: {
-      index: true,
-      follow: true,
+      index: false,
+      follow: false,
+      noimageindex: true,
       'max-video-preview': -1,
-      'max-image-preview': 'large',
+      'max-image-preview': 'none',
       'max-snippet': -1,
     },
-  },
-  verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || 'google-site-verification-token',
   },
 };
 
@@ -182,8 +184,8 @@ const structuredSchema = {
           addressCountry: 'GB',
         },
       ],
-      telephone: '+1-212-589-4200',
-      email: 'inquiries@dawsonwellsgallery.com',
+      telephone: '+1-000-000-0000',
+      email: 'hello@yourgallery.com',
       sameAs: [
         'https://www.clepto.in',
       ],
@@ -207,6 +209,17 @@ export default function RootLayout({
         <meta name="geo.position" content="40.7495;-74.0048" />
         <meta name="ICBM" content="40.7495, -74.0048" />
         
+        {/* Anti-indexing meta tags for demo protection */}
+        <meta name="robots" content="noindex, nofollow, noarchive" />
+        <meta name="googlebot" content="noindex, nofollow, noimageindex" />
+
+        {/* Explicit Social Share Preview Image */}
+        <meta property="og:image" content={`${SITE_URL}/og-image.jpg`} />
+        <meta property="og:image:secure_url" content={`${SITE_URL}/og-image.jpg`} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:image" content={`${SITE_URL}/og-image.jpg`} />
+
         {/* Browser Integrations */}
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <link rel="search" type="application/opensearchdescription+xml" title="Dawson Wells Gallery" href="/opensearch.xml" />

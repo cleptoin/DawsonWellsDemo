@@ -60,6 +60,8 @@ export default function ArtworkDetailClient({
     type: 'frontal',
   };
 
+  const siteUrl = typeof window !== 'undefined' ? window.location.origin : 'https://dawsonwellsdemo.vercel.app';
+
   const artworkSchema = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -69,14 +71,14 @@ export default function ArtworkDetailClient({
         creator: {
           '@type': 'Person',
           name: 'Dawson Wells',
-          sameAs: 'https://dawsonwellsdesigns.com/about',
+          sameAs: `${siteUrl}/about`,
         },
         artMedium: artwork.medium,
         artform: artwork.category,
         artworkSurface: artwork.medium,
         dateCreated: artwork.year,
         description: artwork.curatorialNote,
-        image: `https://dawsonwellsdesigns.com${artwork.primaryImage}`,
+        image: `${siteUrl}${artwork.primaryImage}`,
         offers: {
           '@type': 'Offer',
           availability:
@@ -84,7 +86,7 @@ export default function ArtworkDetailClient({
               ? 'https://schema.org/InStock'
               : 'https://schema.org/SoldOut',
           priceCurrency: 'USD',
-          url: `https://dawsonwellsdesigns.com/artworks/${artwork.slug}`,
+          url: `${siteUrl}/artworks/${artwork.slug}`,
         },
       },
       {
@@ -94,25 +96,25 @@ export default function ArtworkDetailClient({
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://dawsonwellsdesigns.com',
+            item: `${siteUrl}`,
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Artworks',
-            item: 'https://dawsonwellsdesigns.com/artworks',
+            item: `${siteUrl}/artworks`,
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: artwork.category,
-            item: `https://dawsonwellsdesigns.com/artworks/${artwork.category.toLowerCase()}`,
+            item: `${siteUrl}/artworks/${artwork.category.toLowerCase()}`,
           },
           {
             '@type': 'ListItem',
             position: 4,
             name: artwork.title,
-            item: `https://dawsonwellsdesigns.com/artworks/${artwork.slug}`,
+            item: `${siteUrl}/artworks/${artwork.slug}`,
           },
         ],
       },

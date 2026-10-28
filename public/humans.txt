@@ -4,10 +4,10 @@ Site: https://dawsonwellsdesigns.com
 Studio: East Tennessee & New York
 Education: University of Tennessee, Knoxville
 
-Chief Curator: Dr. Evelyn Sterling
-Senior Director, Private Collections: Julian Montgomery
-Director, European Operations: Alistair Finch-Hatton
-Head Registrar: Claire Vance
+Chief Curator: Senior Curatorial Directorate (Placeholder)
+Senior Director, Private Collections: Julian Montgomery (Placeholder)
+Director, European Operations: Alistair Finch-Hatton (Placeholder)
+Head Registrar: Claire Vance (Placeholder)
 
 /* DIGITAL ARCHITECT & DESIGN AGENCY */
 Digital Architecture, Design & Development: Clepto

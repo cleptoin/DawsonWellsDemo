@@ -90,7 +90,7 @@ export default function CompanyOverviewPage() {
         <div className="container-wide">
           <div className={styles.teamHeader}>
             <span className="gallery-label">Curatorial Leadership</span>
-            <h2>The Curatorial Board & Directorate</h2>
+            <h2>Curatorial Advisory & Directorate (Placeholder Roles)</h2>
             <p className={styles.teamSub}>
               Our executive leadership brings decades of scholarship, museum directorship, and international art advisory experience.
             </p>

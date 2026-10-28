@@ -2,7 +2,10 @@ import { MetadataRoute } from 'next';
 import { ARTWORKS_DATA } from '@/data/artworks';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://dawsonwellsdesigns.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL
+    || (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : null)
+    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null)
+    || 'https://dawsonwellsdemo.vercel.app';
   const currentDate = new Date().toISOString();
 
   const staticRoutes: MetadataRoute.Sitemap = [
