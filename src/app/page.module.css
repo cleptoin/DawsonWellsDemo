@@ -179,6 +179,71 @@
   padding-bottom: 1rem;
 }
 
+.mediumTabBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  padding: 0.85rem 1.15rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  border-radius: 0;
+  transition: all 0.25s ease;
+  text-align: left;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mediumTabBtn:hover:not(.activeMediumTab) {
+  border-color: var(--accent-gold);
+  background: #F0ECE1;
+}
+
+.tabNumber {
+  font-size: 0.68rem;
+  font-family: var(--font-mono), monospace;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  transition: color 0.2s ease;
+}
+
+.tabLabel {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.2;
+  transition: color 0.2s ease;
+}
+
+/* Base Active State (High Contrast: White & Gold on Charcoal) */
+.mediumTabBtn.activeMediumTab,
+.activeMediumTab {
+  background-color: #121110 !important;
+  border-color: #121110 !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.mediumTabBtn.activeMediumTab .tabNumber,
+.activeMediumTab .tabNumber {
+  color: #C4AA86 !important;
+  -webkit-text-fill-color: #C4AA86 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.mediumTabBtn.activeMediumTab .tabLabel,
+.activeMediumTab .tabLabel {
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  font-weight: 500 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Mobile & iPhone Responsive Overrides */
 @media (max-width: 768px) {
   .mediumTabs {
     display: flex;
@@ -186,9 +251,11 @@
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
     gap: 0.65rem;
-    padding-bottom: 0.75rem;
+    padding: 0.25rem 0.25rem 0.85rem;
+    margin-bottom: 1.5rem;
     border-bottom: none;
     scrollbar-width: none;
+    -ms-overflow-style: none;
   }
 
   .mediumTabs::-webkit-scrollbar {
@@ -198,57 +265,47 @@
   .mediumTabBtn {
     flex: 0 0 auto;
     scroll-snap-align: start;
-    padding: 0.55rem 0.95rem;
+    min-width: 130px;
+    padding: 0.65rem 1rem;
     background: var(--bg-surface);
     border: 1px solid var(--border-medium);
   }
 
-  .activeMediumTab {
-    background: var(--text-primary);
-    border-color: var(--text-primary);
+  .mediumTabBtn .tabLabel {
+    font-size: 1.1rem;
+    color: #121110;
+    -webkit-text-fill-color: #121110;
   }
 
-  .activeMediumTab .tabLabel {
-    color: #FFFFFF;
+  .mediumTabBtn .tabNumber {
+    font-size: 0.62rem;
+    color: #76706B;
+    -webkit-text-fill-color: #76706B;
   }
 
-  .activeMediumTab .tabNumber {
-    color: var(--accent-gold);
+  /* Force crystal-clear visibility when selected on iPhone */
+  .mediumTabBtn.activeMediumTab,
+  button.mediumTabBtn.activeMediumTab {
+    background-color: #121110 !important;
+    border-color: #121110 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
   }
-}
 
-.mediumTabBtn {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.25rem;
-  padding: 0.5rem 0.2rem;
-  border-bottom: 2px solid transparent;
-  transition: all 0.2s ease;
-  text-align: left;
-}
+  .mediumTabBtn.activeMediumTab .tabLabel,
+  button.mediumTabBtn.activeMediumTab .tabLabel {
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
 
-.tabNumber {
-  font-size: 0.65rem;
-  font-family: var(--font-mono), monospace;
-  color: var(--text-muted);
-}
-
-.tabLabel {
-  font-family: var(--font-serif);
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: var(--text-secondary);
-  transition: color 0.2s ease;
-}
-
-.activeMediumTab {
-  border-bottom-color: var(--text-primary);
-}
-
-.activeMediumTab .tabLabel {
-  color: var(--text-primary);
-  font-weight: 500;
+  .mediumTabBtn.activeMediumTab .tabNumber,
+  button.mediumTabBtn.activeMediumTab .tabNumber {
+    color: #C4AA86 !important;
+    -webkit-text-fill-color: #C4AA86 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
 }
 
 .mediumShowcaseCard {

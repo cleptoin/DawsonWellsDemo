@@ -93,9 +93,10 @@
 }
 
 .activeCategoryTab {
-  background: var(--text-primary);
-  color: var(--bg-primary);
-  border-color: var(--text-primary);
+  background-color: var(--text-primary) !important;
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  border-color: var(--text-primary) !important;
 }
 
 .tabCount {
