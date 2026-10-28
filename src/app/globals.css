@@ -32,8 +32,8 @@
   --font-sans: var(--font-inter), 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 
   /* Spacing */
-  --container-max: 1540px;
-  --container-wide: 1720px;
+  --container-max: 1380px;
+  --container-wide: 1480px;
   --header-height: 84px;
 
   /* Transitions */
@@ -59,9 +59,8 @@ html {
   text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   overflow-x: hidden;
-  overflow-x: clip;
   width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
 }
 
 body {
@@ -72,9 +71,8 @@ body {
   min-height: 100dvh;
   line-height: 1.6;
   overflow-x: hidden;
-  overflow-x: clip;
   width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
   letter-spacing: -0.01em;
   position: relative;
 }
