@@ -1,0 +1,5 @@
+# Dawson Wells Gallery — Direct Digital Inventory Policy
+# Dawson Wells Gallery does not participate in programmatic ad exchanges or third-party digital advertising syndication.
+# All digital inventory and curatorial acquisitions are managed directly by Dawson Wells Gallery Curatorial Directorate.
+contact=inquiries@dawsonwellsgallery.com
+disallow: /

@@ -1,0 +1,465 @@
+.contactPage {
+  padding-bottom: 6rem;
+}
+
+.headerArea {
+  padding: 3.5rem 0 2.5rem;
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.breadLink {
+  color: var(--text-muted);
+}
+
+.breadLink:hover {
+  color: var(--text-primary);
+}
+
+.breadSep {
+  color: var(--border-medium);
+}
+
+.breadActive {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.flagshipPill {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+.pageTitle {
+  font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+}
+
+.pageLead {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 780px;
+  line-height: 1.6;
+}
+
+/* Locations */
+.locationsSection {
+  padding: 4rem 0 3rem;
+}
+
+.locationTabs {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .locationTabs {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .locTab {
+    min-width: 100%;
+    width: 100%;
+  }
+  .locImageWrapper {
+    min-height: 240px;
+  }
+}
+
+.locTab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  transition: all 0.2s ease;
+  min-width: 220px;
+}
+
+.locTab:hover {
+  border-color: var(--text-primary);
+}
+
+.activeLocTab {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
+}
+
+.locTabCity {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.locTabNeigh {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.activeLocationCard {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 900px) {
+  .activeLocationCard {
+    grid-template-columns: 1fr;
+  }
+}
+
+.locImageWrapper {
+  position: relative;
+  min-height: 440px;
+  background-color: #000;
+}
+
+.locImage {
+  object-fit: cover;
+}
+
+.locImageBadge {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  background: rgba(12, 12, 12, 0.85);
+  color: #FAF9F6;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  backdrop-filter: blur(8px);
+}
+
+.locContent {
+  padding: clamp(2rem, 4vw, 3.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locTitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.locAddress {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 1.75rem;
+}
+
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 1.5rem;
+}
+
+.infoRow {
+  display: flex;
+  gap: 0.85rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.infoRow strong {
+  color: var(--text-primary);
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.infoIcon {
+  color: var(--accent-gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.locContactMethods {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-subtle);
+  flex-wrap: wrap;
+}
+
+.contactMethod {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.contactMethod:hover {
+  color: var(--accent-gold);
+}
+
+/* Form Section */
+.formSection {
+  padding: 4rem 0 5rem;
+}
+
+.formCard {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  padding: clamp(2rem, 5vw, 4rem);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.03);
+}
+
+.formHeader {
+  margin-bottom: 2.5rem;
+}
+
+.formTitle {
+  font-size: clamp(2rem, 3.5vw, 2.7rem);
+  font-weight: 300;
+  margin-top: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.formSub {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  line-height: 1.65;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .gridTwo {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.label {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.input, .select, .textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-medium);
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input:focus, .select:focus, .textarea:focus {
+  border-color: var(--text-primary);
+  background: var(--bg-surface);
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.formFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+  flex-wrap: wrap;
+}
+
+.privacyAssurance {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  max-width: 480px;
+}
+
+.shield {
+  color: var(--accent-gold);
+  flex-shrink: 0;
+}
+
+/* Success */
+.successBox {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.successCheck {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--bg-secondary);
+  color: var(--accent-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.successBox h3 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-top: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.successBox p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 540px;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.refTag {
+  background: var(--bg-secondary);
+  border: 1px dashed var(--border-strong);
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+  margin-bottom: 2rem;
+}
+
+.refTag strong {
+  font-family: var(--font-mono), monospace;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+/* Directory */
+.directorySection {
+  padding: 5rem 0 2rem;
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.directoryHeader {
+  margin-bottom: 3rem;
+}
+
+.directoryHeader h2 {
+  font-size: 2.3rem;
+  font-weight: 300;
+  margin-top: 0.4rem;
+}
+
+.departmentsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .departmentsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .departmentsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.deptCard {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.deptCard h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.deptCard p {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+  flex-grow: 1;
+}
+
+.deptEmail {
+  font-size: 0.75rem;
+  color: var(--accent-gold);
+  word-break: break-all;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

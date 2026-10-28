@@ -1,0 +1,35 @@
+# ==============================================================================
+# DAWSON WELLS GALLERY — APACHE PRODUCTION CONFIGURATION (.htaccess)
+# ==============================================================================
+
+RewriteEngine On
+
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+Redirect 301 /work /artworks
+Redirect 301 /about-me-1 /about
+Redirect 301 /about-me /about
+Redirect 301 /overview /about/overview
+Redirect 301 /mission /about/mission-vision
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+</IfModule>
+
+Options -Indexes

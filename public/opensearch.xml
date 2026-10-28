@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>DW Gallery</ShortName>
+    <Description>Search Dawson Wells Gallery Master Catalog &amp; Curatorial Archives</Description>
+    <Tags>art gallery contemporary photography paintings ceramics prints</Tags>
+    <Contact>inquiries@dawsonwellsgallery.com</Contact>
+    <Url type="text/html" template="https://dawsonwellsdesigns.com/artworks?q={searchTerms}"/>
+    <Image width="16" height="16" type="image/png">https://dawsonwellsdesigns.com/favicon-16x16.png</Image>
+    <Image width="32" height="32" type="image/png">https://dawsonwellsdesigns.com/favicon-32x32.png</Image>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+</OpenSearchDescription>

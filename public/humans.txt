@@ -1,0 +1,28 @@
+/* TEAM */
+Artist & Founder: Mr. Dawson Wells
+Site: https://dawsonwellsdesigns.com
+Studio: East Tennessee & New York
+Education: University of Tennessee, Knoxville
+
+Chief Curator: Dr. Evelyn Sterling
+Senior Director, Private Collections: Julian Montgomery
+Director, European Operations: Alistair Finch-Hatton
+Head Registrar: Claire Vance
+
+/* DIGITAL ARCHITECT & DESIGN AGENCY */
+Digital Architecture, Design & Development: Clepto
+Agency Website: https://www.clepto.in
+Contact: contact@clepto.in
+Scope: Museum-Caliber Digital Gallery Architecture, Spatial Light Experience, High-Performance Art Cataloging
+
+/* THANKS */
+Curatorial patrons, collectors, and institutional partners across New York, London, Paris, and Basel.
+
+/* SITE */
+Last update: 2026/10/28
+Standards: HTML5, CSS3, ES2024, TypeScript
+Platform: Next.js App Router, React 19, Vercel
+Typography: Cormorant Garamond (Google Fonts), Inter (Google Fonts)
+Software: Sharp Image Engine, Node.js
+Language: English
+Doctype: HTML5

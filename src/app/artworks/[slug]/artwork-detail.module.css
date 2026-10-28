@@ -1,0 +1,572 @@
+.detailPage {
+  padding-bottom: 6rem;
+  background-color: var(--bg-primary);
+}
+
+/* Breadcrumbs Nav Strip */
+.topNavStrip {
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 1rem 0;
+}
+
+.topNavInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.breadLink {
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+.breadLink:hover {
+  color: var(--text-primary);
+}
+
+.breadDivider {
+  color: var(--border-medium);
+}
+
+.breadActive {
+  color: var(--text-primary);
+  font-weight: 500;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.prevNextNav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.navArtworkLink {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.navArtworkLink:hover {
+  color: var(--text-primary);
+}
+
+.navSep {
+  color: var(--border-medium);
+}
+
+/* Main Stage */
+.mainStage {
+  padding-top: 3.5rem;
+}
+
+.stageGrid {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 4.5rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .stageGrid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+/* Left Image Column */
+.imageColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: sticky;
+  top: calc(var(--header-height) + 1.5rem);
+}
+
+@media (max-width: 1024px) {
+  .imageColumn {
+    position: static;
+  }
+}
+
+.mainImageWrapper {
+  position: relative;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.imageActionIcons {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+.actionIconBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  background: rgba(12, 12, 12, 0.75);
+  color: #FFFFFF;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.2s ease;
+}
+
+.actionIconBtn:hover {
+  background: #000000;
+  border-color: #FFFFFF;
+}
+
+.activeActionBtn {
+  background: var(--accent-gold);
+  color: #FFFFFF;
+  border-color: var(--accent-gold);
+}
+
+.activeActionBtn:hover {
+  background: #A37E48;
+}
+
+/* Architectural In-Situ Room View */
+.roomScaleContainer {
+  position: relative;
+  width: 100%;
+  min-height: 520px;
+  background: linear-gradient(to bottom, #ECE8DF 0%, #E3DFD5 78%, #C7BFB1 78.5%, #D6CEBF 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem 5rem;
+  overflow: hidden;
+}
+
+.roomDatumLine {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.18);
+  pointer-events: none;
+}
+
+.roomDatumLabel {
+  position: absolute;
+  left: 1.5rem;
+  top: -10px;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.45);
+  background: rgba(236, 232, 223, 0.85);
+  padding: 0 0.4rem;
+}
+
+.artworkHangingFrame {
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.22), 0 6px 14px rgba(0, 0, 0, 0.12);
+  border: 8px solid #1A1A1A;
+  background: #FFFFFF;
+  max-width: 72%;
+  transition: transform 0.3s ease;
+}
+
+.artworkHangingFrame img {
+  display: block;
+  max-height: 48vh;
+  width: auto;
+  object-fit: contain;
+}
+
+.roomBenchSilhouette {
+  position: absolute;
+  bottom: 0.8rem;
+  width: 180px;
+  height: 24px;
+  background: #3B3833;
+  border-radius: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  opacity: 0.85;
+}
+
+.roomScaleLegend {
+  position: absolute;
+  bottom: 0.6rem;
+  right: 1rem;
+  font-size: 0.68rem;
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.imageStageTarget {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-in;
+  padding: 1.5rem;
+}
+
+.artworkMainImg {
+  max-width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+.imageCaptionBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.viewTypeBadge {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+/* Multi-Angle Thumbnails */
+.multiAnglesBar {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  padding: 1rem 1.25rem;
+}
+
+.thumbsRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.thumbButton {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--border-medium);
+  padding: 3px;
+  background: var(--bg-secondary);
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.thumbButton:hover {
+  border-color: var(--text-primary);
+}
+
+.activeThumbButton {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 0 1px var(--accent-gold);
+}
+
+.thumbLabel {
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Right Metadata Column */
+.metadataColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.metaHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.categoryStatusRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.35rem;
+}
+
+.categoryBadge {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+.statusPill {
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+}
+
+.Available {
+  color: #1E6B37;
+  background: rgba(46, 125, 50, 0.1);
+}
+
+.artworkTitle {
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 300;
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+.artworkYear {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--text-muted);
+}
+
+/* Specs Highlight Box */
+.specsHighlightBox {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.specRow {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  font-size: 0.82rem;
+  align-items: baseline;
+}
+
+@media (max-width: 500px) {
+  .specRow {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}
+
+.specLabel {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.specValue {
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.metricVal {
+  color: var(--text-muted);
+}
+
+/* CTA Card */
+.ctaCard {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-medium);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.ctaPriceNote {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+}
+
+.ctaButtonsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.utilityActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.utilBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  padding: 0.35rem 0.5rem;
+}
+
+.utilBtn:hover {
+  color: var(--text-primary);
+}
+
+/* Tabs Section */
+.tabsSection {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+}
+
+.tabHeaders {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.tabBtn {
+  padding: 1rem 0.5rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.tabBtn:hover {
+  color: var(--text-primary);
+}
+
+.activeTabBtn {
+  color: var(--text-primary);
+  border-bottom-color: var(--text-primary);
+  font-weight: 600;
+  background: var(--bg-secondary);
+}
+
+.tabContent {
+  padding: 1.75rem;
+}
+
+.essayBody, .formalBody {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.authorBadge {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.authorBadge strong {
+  color: var(--text-primary);
+}
+
+.conservationNote {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: var(--bg-secondary);
+  padding: 1rem;
+  margin-top: 1.25rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.shield {
+  color: var(--accent-gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.provSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.provList {
+  list-style: square inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Related Section */
+.relatedSection {
+  margin-top: 6rem;
+  padding-top: 4rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.relatedHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2.5rem;
+}
+
+.relatedTitle {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-top: 0.35rem;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 2.5rem;
+}
+
+@media (max-width: 900px) {
+  .relatedGrid {
+    grid-template-columns: 1fr;
+  }
+}

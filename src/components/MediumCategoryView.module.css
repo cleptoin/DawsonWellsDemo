@@ -1,0 +1,317 @@
+.categoryPage {
+  padding-bottom: 6rem;
+}
+
+.headerArea {
+  padding: 3rem 0 3.5rem;
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.breadLink {
+  color: var(--text-muted);
+}
+
+.breadLink:hover {
+  color: var(--text-primary);
+}
+
+.breadSep {
+  color: var(--border-medium);
+}
+
+.breadActive {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 992px) {
+  .headerGrid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+.categoryTitle {
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-weight: 300;
+  margin-top: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.headline {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--accent-gold);
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.quoteBox {
+  background: var(--bg-primary);
+  border-left: 2px solid var(--accent-gold);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.quoteBox p {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--text-primary);
+  line-height: 1.45;
+  margin-bottom: 0.5rem;
+}
+
+.quoteBox cite {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  display: block;
+}
+
+.techniquesBox {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  padding: 1.25rem;
+}
+
+.techniquesList {
+  list-style: square inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+}
+
+/* View Bar */
+.viewBar {
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 1rem 0;
+  position: sticky;
+  top: var(--header-height);
+  z-index: 100;
+  backdrop-filter: blur(8px);
+}
+
+.viewBarInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.countText {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+}
+
+.viewControls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.viewButtons {
+  display: flex;
+  align-items: center;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+}
+
+.viewBtn {
+  padding: 0.45rem 0.65rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewBtn:hover {
+  color: var(--text-primary);
+}
+
+.activeViewBtn {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
+
+/* Artworks Grid Section */
+.artworksGridSection {
+  padding: 4rem 0 6rem;
+}
+
+.gridView {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.5rem 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  .gridView {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .gridView {
+    grid-template-columns: 1fr;
+  }
+}
+
+.masonryView {
+  columns: 3 320px;
+  column-gap: 2.5rem;
+}
+
+.masonryView > * {
+  break-inside: avoid;
+  margin-bottom: 2.5rem;
+}
+
+.listView {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Curatorial Essay Section */
+.curatorialEssaySection {
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 5rem 0;
+}
+
+.essayContainer {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.essayTitle {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.essayBody {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.essayAuthor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 1.25rem;
+}
+
+.essayAuthor strong {
+  color: var(--text-primary);
+}
+
+/* Other Disciplines */
+.otherDisciplinesSection {
+  padding-top: 5rem;
+}
+
+.otherHeader {
+  margin-bottom: 2rem;
+}
+
+.otherHeader h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 0.35rem;
+}
+
+.otherCategoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .otherCategoriesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .otherCategoriesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.otherCategoryCard {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.otherCategoryCard:hover {
+  transform: translateY(-4px);
+  border-color: var(--text-primary);
+}
+
+.otherCategoryCard h4 {
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.otherCategoryCard p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.exploreLink {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  font-weight: 600;
+  margin-top: auto;
+}

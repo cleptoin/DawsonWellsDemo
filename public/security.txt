@@ -1,0 +1,11 @@
+# Dawson Wells Gallery — Security Disclosure Policy
+# Reference: RFC 9116
+
+Contact: mailto:security@dawsonwellsgallery.com
+Contact: mailto:contact@clepto.in
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://dawsonwellsdesigns.com/.well-known/security.txt
+Policy: https://dawsonwellsdesigns.com/security-policy.txt
+Acknowledgments: https://dawsonwellsdesigns.com/humans.txt
+Hiring: https://dawsonwellsdesigns.com/contact

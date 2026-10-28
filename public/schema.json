@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dawsonwellsdesigns.com/#website",
+      "url": "https://dawsonwellsdesigns.com/",
+      "name": "Dawson Wells Gallery",
+      "description": "Museum-caliber contemporary art gallery representing the archive of Mr. Dawson Wells across Photography, Paintings, Drawings, Ceramics, and Prints.",
+      "publisher": {
+        "@id": "https://dawsonwellsdesigns.com/#organization"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://dawsonwellsdesigns.com/artworks?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ArtGallery",
+      "@id": "https://dawsonwellsdesigns.com/#organization",
+      "name": "Dawson Wells Gallery",
+      "url": "https://dawsonwellsdesigns.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://dawsonwellsdesigns.com/#logo",
+        "url": "https://dawsonwellsdesigns.com/apple-touch-icon.png",
+        "caption": "Dawson Wells Gallery Monogram"
+      },
+      "image": "https://dawsonwellsdesigns.com/og-image.jpg",
+      "founder": {
+        "@type": "Person",
+        "name": "Dawson Wells",
+        "jobTitle": "Artist & Founder",
+        "alumniOf": "University of Tennessee, Knoxville",
+        "description": "Multi-disciplinary contemporary artist working across analog photography, mineral painting, vine charcoal, wood-fired ceramics, and master prints."
+      },
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "524 West 24th Street",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "postalCode": "10011",
+          "addressCountry": "US"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "14 Old Bond Street",
+          "addressLocality": "London",
+          "postalCode": "W1S 4PP",
+          "addressCountry": "GB"
+        }
+      ],
+      "telephone": "+1-212-589-4200",
+      "email": "inquiries@dawsonwellsgallery.com",
+      "sameAs": [
+        "https://www.instagram.com/dawsonwellsdesigns",
+        "https://www.clepto.in"
+      ]
+    }
+  ]
+}

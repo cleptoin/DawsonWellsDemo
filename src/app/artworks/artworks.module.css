@@ -1,0 +1,331 @@
+.page {
+  padding-bottom: 5rem;
+}
+
+.headerArea {
+  padding: 4rem 0 2rem;
+  background-color: var(--bg-surface);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.countBadge {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  color: var(--accent-gold);
+  border: 1px solid var(--accent-gold);
+  padding: 0.2rem 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pageTitle {
+  font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+}
+
+.pageIntro {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 780px;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.categoryTabs {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .categoryTabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;
+  }
+
+  .categoryTabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .categoryTab {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    white-space: nowrap;
+    padding: 0.5rem 0.85rem;
+    font-size: 0.72rem;
+  }
+}
+
+.categoryTab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-medium);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.categoryTab:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.activeCategoryTab {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
+}
+
+.tabCount {
+  font-size: 0.68rem;
+  opacity: 0.75;
+}
+
+/* Filter Bar */
+.filterBar {
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 1.25rem 0;
+  position: sticky;
+  top: var(--header-height);
+  z-index: 100;
+  backdrop-filter: blur(8px);
+}
+
+.filterBarInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.leftControls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  padding: 0.5rem 0.8rem;
+  width: 260px;
+}
+
+.searchIcon {
+  color: var(--text-muted);
+}
+
+.searchInput {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 0.8rem;
+  width: 100%;
+  font-family: inherit;
+  color: var(--text-primary);
+}
+
+.selectControl {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  padding: 0.52rem 0.8rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+  outline: none;
+  cursor: pointer;
+}
+
+.resetBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  padding: 0.4rem 0.6rem;
+}
+
+.resetBtn:hover {
+  text-decoration: underline;
+}
+
+.rightControls {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.resultsCount {
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+}
+
+.viewModeGroup {
+  display: flex;
+  align-items: center;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+}
+
+.viewBtn {
+  padding: 0.45rem 0.7rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.viewBtn:hover {
+  color: var(--text-primary);
+}
+
+.activeViewBtn {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
+
+/* Display Areas */
+.artworksDisplayArea {
+  padding: 3.5rem 0 5rem;
+}
+
+.gridViewContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.5rem 2.5rem;
+}
+
+@media (max-width: 1100px) {
+  .gridViewContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .gridViewContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.masonryViewContainer {
+  columns: 3 320px;
+  column-gap: 2.5rem;
+}
+
+.masonryViewContainer > * {
+  break-inside: avoid;
+  margin-bottom: 2.5rem;
+}
+
+/* List view */
+.listViewContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.listHeaderRow {
+  display: grid;
+  grid-template-columns: 100px 2.5fr 1.5fr 1fr 120px;
+  gap: 1.5rem;
+  padding: 0.75rem 0;
+  border-bottom: 2px solid var(--text-primary);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .listHeaderRow {
+    grid-template-columns: 80px 1.5fr 1fr;
+  }
+}
+
+/* Empty state */
+.emptyState {
+  text-align: center;
+  padding: 6rem 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.emptyTitle {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.emptyText {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Medium Jump Bar */
+.mediumJumpBar {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 1.75rem 0;
+}
+
+.jumpBarInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.jumpLinks {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.jumpLink {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.jumpLink:hover {
+  color: var(--accent-gold);
+}

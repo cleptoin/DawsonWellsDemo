@@ -1,0 +1,171 @@
+.privacyPage {
+  min-height: 80vh;
+  padding-bottom: 6rem;
+  background-color: var(--color-bg);
+}
+
+.headerArea {
+  padding: 4.5rem 0 3rem;
+  border-bottom: 1px solid var(--color-border);
+  background-color: #FAF8F5;
+  margin-bottom: 3.5rem;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.breadLink {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadLink:hover {
+  color: var(--color-gold);
+}
+
+.breadSep {
+  color: var(--color-border);
+}
+
+.breadActive {
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.title {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0.6rem 0 0.8rem;
+  color: var(--color-text-primary);
+}
+
+.lastUpdated {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.04em;
+}
+
+.contentGrid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 4rem;
+}
+
+.mainContent {
+  color: var(--color-text-secondary);
+  line-height: 1.85;
+  font-size: 0.95rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section h2 {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+}
+
+.section p {
+  margin-bottom: 1rem;
+}
+
+.section ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.section li {
+  margin-bottom: 0.6rem;
+}
+
+.contactBox {
+  background-color: #F4F1EA;
+  padding: 1.5rem;
+  border-left: 2px solid var(--color-gold);
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.contactBox a {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+}
+
+.sidebarCard {
+  background-color: #F8F6F1;
+  border: 1px solid var(--color-border);
+  padding: 2rem;
+  position: sticky;
+  top: 100px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.goldIcon {
+  color: var(--color-gold);
+}
+
+.cardHeader h3 {
+  font-family: var(--font-cormorant), serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.cardList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.8rem;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.cardList li {
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed var(--color-border);
+}
+
+.sidebarBtn {
+  display: block;
+  text-align: center;
+  background-color: var(--color-obsidian);
+  color: #FFFFFF;
+  padding: 0.75rem 1.2rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.sidebarBtn:hover {
+  background-color: var(--color-gold);
+}
+
+@media (max-width: 900px) {
+  .contentGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

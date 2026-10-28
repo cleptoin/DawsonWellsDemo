@@ -1,0 +1,450 @@
+.footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-medium);
+  margin-top: 6rem;
+  color: var(--text-primary);
+}
+
+/* Newsletter */
+.newsletterSection {
+  background-color: var(--bg-tertiary);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 4rem 0;
+}
+
+.newsletterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.newsletterLeft {
+  max-width: 600px;
+}
+
+.newsletterTitle {
+  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+  font-weight: 300;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+
+.newsletterText {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.newsletterRight {
+  flex: 1;
+  min-width: 300px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.subscribeForm {
+  display: flex;
+  gap: 0;
+}
+
+.subscribeInput {
+  flex-grow: 1;
+  padding: 0.85rem 1rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  border-right: none;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  outline: none;
+  font-family: inherit;
+}
+
+.subscribeInput:focus {
+  border-color: var(--text-primary);
+}
+
+.subscribeBtn {
+  padding: 0.85rem 1.6rem;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid var(--text-primary);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.subscribeBtn:hover {
+  background: transparent;
+  color: var(--text-primary);
+}
+
+.subscribedBox {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--bg-surface);
+  padding: 0.85rem 1.25rem;
+  border: 1px solid var(--accent-gold);
+  font-size: 0.8rem;
+  color: var(--text-primary);
+}
+
+.checkIcon {
+  color: var(--accent-gold);
+}
+
+.privacyNote {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+/* Main Footer */
+.mainFooter {
+  padding: 5rem 0 2.5rem;
+}
+
+.columnsGrid {
+  display: grid;
+  grid-template-columns: 1.8fr 1.2fr 1.2fr 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .columnsGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .columnsGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.brandCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.brandTitle {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  letter-spacing: 0.14em;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.brandStatement {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.monogram {
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+}
+
+.locationCol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.locationTitle {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+.locationAddress, .locationHours {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+.linksCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.linksList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.linksList a {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.linksList a:hover {
+  color: var(--text-primary);
+}
+
+.boldLink {
+  font-weight: 500;
+  color: var(--text-primary) !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Bottom Bar */
+.bottomBar {
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.bottomLinks {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.dot {
+  font-size: 0.6rem;
+}
+
+.bottomLinks a:hover {
+  color: var(--text-primary);
+}
+
+/* Clepto Master Showcase Banner (Prominent, High-Impact) */
+.cleptoMasterBanner {
+  background: #090909;
+  color: #ECE9E1;
+  border-top: 2px solid #262420;
+  padding: 3.5rem 0 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.cleptoBannerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cleptoHeaderStrip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cleptoLiveBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(184, 147, 92, 0.12);
+  border: 1px solid rgba(184, 147, 92, 0.35);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+.cleptoPulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #55D483;
+  box-shadow: 0 0 8px #55D483;
+}
+
+.cleptoClientTag {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8C8880;
+}
+
+.cleptoMainGrid {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .cleptoMainGrid {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+}
+
+.cleptoStatementCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cleptoHeading {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  font-weight: 300;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.cleptoParagraph {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #B8B4AA;
+}
+
+.cleptoParagraph strong {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.cleptoTrustPills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 0.5rem;
+}
+
+.trustPill {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.3rem 0.75rem;
+  color: #D6D2C8;
+}
+
+.cleptoActionCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.cleptoActionCard {
+  background: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 2rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 640px) {
+  .cleptoActionCard {
+    padding: 1.5rem 1.25rem;
+  }
+}
+
+.actionCardLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+.actionCardDesc {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #A3A098;
+}
+
+.actionButtonsRow {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .actionButtonsRow {
+    flex-direction: column;
+  }
+}
+
+.cleptoPrimaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  background: var(--accent-gold);
+  color: #FFFFFF;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid var(--accent-gold);
+  transition: all 0.2s ease;
+  min-height: 48px;
+}
+
+.cleptoPrimaryBtn:hover {
+  background: #C5A87B;
+  border-color: #C5A87B;
+  color: #000000;
+}
+
+.cleptoSecondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.4rem;
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.2s ease;
+  min-height: 48px;
+}
+
+.cleptoSecondaryBtn:hover {
+  border-color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.cleptoResponseTime {
+  font-size: 0.7rem;
+  color: #7A7770;
+  letter-spacing: 0.04em;
+}
