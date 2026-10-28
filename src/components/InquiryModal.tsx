@@ -54,8 +54,8 @@ export default function InquiryModal() {
   };
 
   return (
-    <div className={styles.overlay} onClick={closeInquiry}>
-      <div className={styles.modalCard} onClick={e => e.stopPropagation()}>
+    <div className={styles.overlay} onClick={closeInquiry} data-lenis-prevent>
+      <div className={styles.modalCard} onClick={e => e.stopPropagation()} data-lenis-prevent>
         <button
           className={styles.closeBtn}
           onClick={closeInquiry}

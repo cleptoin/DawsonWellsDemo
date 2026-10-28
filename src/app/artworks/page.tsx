@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { LayoutGrid, Grid3X3, List, Search, Filter, RotateCcw, ArrowUpRight } from 'lucide-react';
 import { ARTWORKS_DATA, CATEGORIES, CategoryType, Artwork } from '@/data/artworks';
 import ArtworkCard from '@/components/ArtworkCard';
-import KineticArtworkStream from '@/components/KineticArtworkStream';
+import HorizontalExhibitionPanorama from '@/components/HorizontalExhibitionPanorama';
 import styles from './artworks.module.css';
 
 export default function ArtworksPage() {
@@ -89,11 +89,11 @@ export default function ArtworksPage() {
         </div>
       </div>
 
-      {/* Kinetic Alternating Scroll Stream */}
-      <KineticArtworkStream
+      {/* Museum Horizontal Exhibition Panorama */}
+      <HorizontalExhibitionPanorama
         artworks={ARTWORKS_DATA}
-        title="Curatorial Movement & Archive Highlights"
-        subtitle="Dynamic visual dialogue across disciplines. Scroll vertically to glide alternating horizontal streams."
+        curatorialTitle="Curatorial Movement & Archive Panorama"
+        curatorialSubtitle="A continuous linear panorama spanning five disciplines in the Dawson Wells Collection. Navigate horizontally via scroll, drag, or touch."
       />
 
       {/* Filter and View Bar */}

@@ -22,7 +22,7 @@ import { NEWS_DATA } from '@/data/news';
 import { GALLERY_LOCATIONS, GALLERY_OVERVIEW } from '@/data/gallery';
 import { useInquiry } from '@/context/InquiryContext';
 import ArtworkCard from '@/components/ArtworkCard';
-import KineticArtworkStream from '@/components/KineticArtworkStream';
+import HorizontalExhibitionPanorama from '@/components/HorizontalExhibitionPanorama';
 import styles from './page.module.css';
 
 export default function HomePage() {
@@ -222,11 +222,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3B. KINETIC DUAL-STREAM SCROLL SHOWCASE */}
-      <KineticArtworkStream
+      {/* 3B. HORIZONTAL EXHIBITION PANORAMA */}
+      <HorizontalExhibitionPanorama
         artworks={ARTWORKS_DATA}
-        title="Curatorial Movement & Archive Streams"
-        subtitle="Scroll page vertically to glide through alternating horizontal streams of the Dawson Wells Collection."
+        curatorialTitle="Curatorial Movement & Archive Panorama"
+        curatorialSubtitle="A continuous horizontal panorama across five decades of Dawson Wells's material archive. Navigate via scroll, drag, or touch swipe."
       />
 
       {/* 4. SELECTED HIGHLIGHTS FROM THE COLLECTION */}

@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { InquiryProvider } from '@/context/InquiryContext';
 import InquiryModal from '@/components/InquiryModal';
+import SmoothScrollProvider from '@/components/SmoothScrollProvider';
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -238,12 +239,14 @@ export default function RootLayout({
         )}
 
         <InquiryProvider>
-          <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-            <Header />
-            <main style={{ flexGrow: 1 }}>{children}</main>
-            <Footer />
-          </div>
-          <InquiryModal />
+          <SmoothScrollProvider>
+            <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+              <Header />
+              <main style={{ flexGrow: 1 }}>{children}</main>
+              <Footer />
+            </div>
+            <InquiryModal />
+          </SmoothScrollProvider>
         </InquiryProvider>
       </body>
     </html>

@@ -1,0 +1,571 @@
+/* Horizontal Exhibition Panorama — Museum Caliber Architecture */
+
+.panoramaSection {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  background-color: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.innerStickyStage {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Top Curatorial & Navigation Toolbar */
+.topToolbar {
+  width: 100%;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+.toolbarFlex {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.titleArea {
+  max-width: 680px;
+}
+
+.badgeLine {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.archivalBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+.curatedCount {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  border-left: 1px solid var(--border-medium);
+  padding-left: 0.75rem;
+}
+
+.panoramaHeading {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.2vw, 2.75rem);
+  font-weight: 300;
+  line-height: 1.15;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.panoramaHeading em {
+  font-style: italic;
+  color: var(--accent-gold);
+}
+
+.panoramaDesc {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-weight: 300;
+  margin: 0;
+}
+
+/* Controls Area: Status, Progress, and Arrow Controls */
+.controlsArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.9rem;
+}
+
+.interactionNotice {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.pulseDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  animation: pulseDot 2s ease-in-out infinite;
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(0.7); }
+}
+
+.navRow {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.plateCounter {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.85rem;
+}
+
+.currentNum {
+  font-weight: 600;
+  color: var(--accent-gold);
+}
+
+.counterDivider {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.totalNum {
+  color: var(--text-muted);
+}
+
+.progressBarTrack {
+  width: 140px;
+  height: 2px;
+  background-color: var(--border-medium);
+  overflow: hidden;
+  position: relative;
+}
+
+.progressBarFill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-gold);
+  transform-origin: left;
+  transition: transform 0.15s ease-out;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.navBtn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border-medium);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.navBtn:hover:not(:disabled) {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.navBtn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* Horizontal Track Structure */
+.panoramaTrack {
+  display: flex;
+  box-sizing: border-box;
+  will-change: transform;
+}
+
+/* Desktop Styles (>= 1024px) */
+@media (min-width: 1024px) {
+  .innerStickyStage {
+    min-height: 100vh;
+    padding-bottom: 3.5rem;
+  }
+
+  .panoramaTrack {
+    gap: 2.25rem;
+    padding: 0 4rem;
+    width: max-content;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .isDragging {
+    cursor: grabbing !important;
+  }
+
+  .panoramaCard {
+    flex: 0 0 440px;
+    width: 440px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-medium);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.05);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+  }
+
+  .panoramaCard:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent-gold);
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.09);
+  }
+
+  .activeCard {
+    border-color: rgba(158, 130, 86, 0.5);
+  }
+
+  .cardFrame {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background-color: #E8E5DF;
+    overflow: hidden;
+  }
+
+  .imageOverflowMask {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .imageInnerParallax {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+  }
+
+  .cardParallaxImg {
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .panoramaCard:hover .cardParallaxImg {
+    transform: scale(1.04);
+  }
+}
+
+/* Floating Frame Badges */
+.frameBadges {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.plateTag {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: rgba(18, 17, 16, 0.88);
+  backdrop-filter: blur(6px);
+  padding: 0.25rem 0.55rem;
+}
+
+.categoryPill {
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: rgba(18, 17, 16, 0.65);
+  backdrop-filter: blur(4px);
+  padding: 0.25rem 0.55rem;
+  font-weight: 500;
+}
+
+.statusPill {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: rgba(158, 130, 86, 0.95);
+  backdrop-filter: blur(4px);
+  padding: 0.25rem 0.55rem;
+  font-weight: 600;
+  z-index: 2;
+}
+
+/* Card Placard Content */
+.cardPlacard {
+  padding: 1.5rem 1.6rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background: var(--bg-primary);
+  box-sizing: border-box;
+}
+
+.placardTop {
+  margin-bottom: 1rem;
+}
+
+.placardSeries {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  font-family: var(--font-mono), monospace;
+  margin-bottom: 0.4rem;
+}
+
+.dotSep {
+  color: var(--text-muted);
+}
+
+.placardTitle {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: 0.4rem;
+}
+
+.placardTitle a {
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.placardTitle a:hover {
+  color: var(--accent-gold);
+}
+
+.placardMedium {
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.placardDims {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.curatorialExcerpt {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  border-left: 2px solid var(--accent-gold);
+  padding-left: 0.85rem;
+  margin: 0 0 1.25rem;
+}
+
+.placardActions {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.viewDetailBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  transition: color 0.2s ease;
+}
+
+.viewDetailBtn:hover {
+  color: var(--accent-gold);
+}
+
+.inquireBtn {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--border-medium);
+  background: transparent;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.inquireBtn:hover {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-color: var(--text-primary);
+}
+
+/* Mobile & Tablet Styles (< 1024px) */
+.mobilePagination {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .topToolbar {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .toolbarFlex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .controlsArea {
+    width: 100%;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .navRow {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .progressBarTrack {
+    flex-grow: 1;
+    max-width: 180px;
+  }
+
+  .panoramaTrack {
+    display: flex;
+    gap: 1rem;
+    padding: 0 1.25rem 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    cursor: auto;
+  }
+
+  .panoramaTrack::-webkit-scrollbar {
+    display: none;
+  }
+
+  .panoramaCard {
+    flex: 0 0 84vw;
+    width: 84vw;
+    max-width: 340px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-medium);
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: center;
+    box-sizing: border-box;
+  }
+
+  .cardFrame {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    background-color: #E8E5DF;
+    overflow: hidden;
+  }
+
+  .imageOverflowMask {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .imageInnerParallax {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .cardParallaxImg {
+    object-fit: cover;
+  }
+
+  .cardPlacard {
+    padding: 1.15rem 1.2rem 1.1rem;
+  }
+
+  .placardTitle {
+    font-size: 1.2rem;
+  }
+
+  .curatorialExcerpt {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .mobilePagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.25rem 0 1.75rem;
+  }
+
+  .pageDot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--border-medium);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+
+  .activeDot {
+    background: var(--accent-gold);
+    width: 20px;
+    border-radius: 4px;
+  }
+}
