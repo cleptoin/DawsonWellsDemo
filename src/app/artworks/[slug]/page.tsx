@@ -24,10 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
-    || (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : null)
-    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null)
-    || 'https://dawsonwellsdemo.vercel.app';
+  const siteUrl = 'https://dawson-wells-demo-delta.vercel.app';
   const artworkUrl = `${siteUrl}/artworks/${artwork.slug}`;
   const imageUrl = `${siteUrl}${artwork.primaryImage}`;
 

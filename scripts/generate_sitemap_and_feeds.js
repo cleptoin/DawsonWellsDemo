@@ -16,7 +16,7 @@ if (match) {
   }
 }
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dawsonwellsdemo.vercel.app';
+const baseUrl = 'https://dawson-wells-demo-delta.vercel.app';
 const currentDate = new Date().toISOString().split('T')[0];
 
 // 1. Build sitemap.xml

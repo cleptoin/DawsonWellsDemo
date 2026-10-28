@@ -3,35 +3,35 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://dawsonwellsdemo.vercel.app/#website",
-      "url": "https://dawsonwellsdemo.vercel.app/",
+      "@id": "https://dawson-wells-demo-delta.vercel.app/#website",
+      "url": "https://dawson-wells-demo-delta.vercel.app/",
       "name": "Dawson Wells Gallery",
       "description": "Museum-caliber contemporary art gallery representing the archive of Mr. Dawson Wells across Photography, Paintings, Drawings, Ceramics, and Prints.",
       "publisher": {
-        "@id": "https://dawsonwellsdemo.vercel.app/#organization"
+        "@id": "https://dawson-wells-demo-delta.vercel.app/#organization"
       },
       "inLanguage": "en-US",
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://dawsonwellsdemo.vercel.app/artworks?q={search_term_string}"
+          "urlTemplate": "https://dawson-wells-demo-delta.vercel.app/artworks?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "ArtGallery",
-      "@id": "https://dawsonwellsdemo.vercel.app/#organization",
+      "@id": "https://dawson-wells-demo-delta.vercel.app/#organization",
       "name": "Dawson Wells Gallery",
-      "url": "https://dawsonwellsdemo.vercel.app/",
+      "url": "https://dawson-wells-demo-delta.vercel.app/",
       "logo": {
         "@type": "ImageObject",
-        "@id": "https://dawsonwellsdemo.vercel.app/#logo",
-        "url": "https://dawsonwellsdemo.vercel.app/apple-touch-icon.png",
+        "@id": "https://dawson-wells-demo-delta.vercel.app/#logo",
+        "url": "https://dawson-wells-demo-delta.vercel.app/apple-touch-icon.png",
         "caption": "Dawson Wells Gallery Monogram"
       },
-      "image": "https://dawsonwellsdemo.vercel.app/og-image.jpg",
+      "image": "https://dawson-wells-demo-delta.vercel.app/og-image.jpg",
       "founder": {
         "@type": "Person",
         "name": "Dawson Wells",

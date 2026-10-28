@@ -95,10 +95,6 @@ export default function AboutPage() {
                   <p>Journalism &amp; Media studies; creative director for collegiate championship visual campaigns.</p>
                 </div>
                 <div className={styles.milestoneItem}>
-                  <span className={styles.mYear}>Smith &amp; Wesson</span>
-                  <p>Commissioned product visual direction and metallurgical brand aesthetics.</p>
-                </div>
-                <div className={styles.milestoneItem}>
                   <span className={styles.mYear}>Dawson Wells Gallery</span>
                   <p>Established permanent flagship representation across New York and London.</p>
                 </div>

@@ -60,7 +60,7 @@ export default function ArtworkDetailClient({
     type: 'frontal',
   };
 
-  const siteUrl = typeof window !== 'undefined' ? window.location.origin : 'https://dawsonwellsdemo.vercel.app';
+  const siteUrl = typeof window !== 'undefined' ? window.location.origin : 'https://dawson-wells-demo-delta.vercel.app';
 
   const artworkSchema = {
     '@context': 'https://schema.org',
